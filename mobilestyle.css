@@ -1,11 +1,12 @@
 @media(max-width: 768px) {
 
   .header_links a {
-    margin: 0 10px;
+    margin-right: 0px;
+    margin: 0px 10px;
   }
 
   .header_links {
-    margin-right: 10px;
+    margin-right: 20px;
   }
 
   nav span {
@@ -21,25 +22,17 @@
     flex-direction: column-reverse;
     align-items: center;
     padding: 40px 24px;
-    gap: 20px;
+    gap: 10px;
   }
 
   .hero_txt {
-    text-align: center;
-    margin: 0;
+    margin: 20px 30px;
   }
 
   .hero_headshot img {
     margin-left: 0;
     width: 200px;
     height: 200px;
-  }
-
-  .hero_dwn {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
   }
   
 }
