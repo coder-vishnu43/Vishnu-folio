@@ -1,0 +1,26 @@
+@media(max-width: 768px){
+  .header_links a{
+    margin-right: 0px;
+    margin: 0px 10px;
+  }
+  .header_links{
+    margin-right: 20px;
+  }
+  
+  nav span{
+    display: none;
+  }
+  .hero{
+    flex-direction: column-reverse;
+  }
+  .hero_txt h2{
+  margin-top: 0px;
+}
+  .hero_txt{
+  margin: 20px 30px;
+}
+  .hero_headshot img{
+    margin-left: 59px;
+  }
+}
+

@@ -1,0 +1,95 @@
+:root{
+  --bgcolor: #F0F8FF; /* alice blue*/
+  --color: #222421; /*black brown*/
+  --lkcolor: #007FFF; /*blue color*/
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--bgcolor);
+  color: var(--color);
+  font-family: 'Poppins',sans serif;
+}
+a{
+  text-decoration: none;
+  color: var(--lkcolor);
+}
+/* NAV BAR*/
+
+nav{
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: black rgb(0,0,0,0.08) solid;
+  box-shadow: 0 2px 6px rgb(0,0,0,0.08);
+}
+.h_name{
+  margin-left: 43px;
+}
+.header_links a{
+  margin-right: 30px;
+  color: var(--color);
+}
+.header_links a i{
+  font-size: 30px;
+}
+.header_links a:hover{
+  color: var(--lkcolor);
+}
+/* SECTION 1: HERO*/
+
+.hero{
+  display: flex;
+  padding: 20px 20px;
+  
+}
+
+.hero_headshot img{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: black 2px solid;
+  box-shadow: 0 1px 6px rgb(0,0,0,0.8);
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+
+.hero_txt{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  margin: 60px 30px;
+}
+.hero_txt h2{
+  font-weight: 800px;
+  margin-bottom: 5px;
+  margin-top: 50px;
+}
+.hero_txt p{
+  font-weight: 300px;
+  line-height: 23px;
+}
+
+.hero_dwn {
+  margin-top: 30px;
+}
+.hero_dwn a{
+  margin: 0px 6px;
+  padding: 2px 4px;
+  border: 1px solid var(--lkcolor);
+  border-radius: 5px;
+}
+.hero_dwn a:hover{
+  background-color: white;
+  color: var(--color);
+  border: 1px solid var(--color);
+}
